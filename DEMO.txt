@@ -1,0 +1,242 @@
+1. DEBUG MODE on RANDOM PATH
+
+      DEBUG MODE: ON
+      Please enter R for a random path; otherwise, the program will run in planned path:
+      R
+      Program is running on RANDOM mode
+      The path of the car:
+      Time	CarLocation	CarDirection	GreenLightDirection	MoveChosen
+      1	x: 0 y: 0	EAST		N-S			Wait Signal
+      5	x: 0 y: 1	NORTH		N-S			Turn Left
+      6	x: 0 y: 1	NORTH		E-W			Wait Signal
+      16	x: 0 y: 1	WEST		E-W			Turn Left
+      17	x: 0 y: 1	WEST		N-S			Wait Signal
+      21	x: 0 y: 0	SOUTH		N-S			Turn Left
+      22	x: 0 y: 0	SOUTH		E-W			Wait Signal
+      26	x: 1 y: 0	EAST		E-W			Turn Left
+      29	x: 2 y: 0	EAST		N-S			Go Straight
+      33	x: 2 y: 1	NORTH		N-S			Turn Left
+      34	x: 2 y: 1	NORTH		E-W			Wait Signal
+      38	x: 1 y: 1	WEST		E-W			Turn Left
+      39	x: 1 y: 1	WEST		N-S			Wait Signal
+      43	x: 1 y: 2	NORTH		N-S			Turn Right
+      46	x: 1 y: 3	NORTH		E-W			Go Straight
+      47	x: 1 y: 3	NORTH		N-S			Wait Signal
+      50	x: 1 y: 4	NORTH		E-W			Go Straight
+      54	x: 2 y: 4	EAST		E-W			Turn Right
+      57	x: 3 y: 4	EAST		N-S			Go Straight
+      61	x: 3 y: 3	SOUTH		N-S			Turn Right
+      62	x: 3 y: 3	SOUTH		E-W			Wait Signal
+      66	x: 4 y: 3	EAST		E-W			Turn Left
+      69	x: 5 y: 3	EAST		N-S			Go Straight
+      73	x: 5 y: 4	NORTH		N-S			Turn Left
+      76	x: 5 y: 5	NORTH		E-W			Go Straight
+      77	x: 5 y: 5	NORTH		N-S			Wait Signal
+      80	x: 5 y: 6	NORTH		E-W			Go Straight
+      84	x: 4 y: 6	WEST		E-W			Turn Left
+      85	x: 4 y: 6	WEST		N-S			Wait Signal
+      89	x: 4 y: 5	SOUTH		N-S			Turn Left
+      90	x: 4 y: 5	SOUTH		E-W			Wait Signal
+      94	x: 5 y: 5	EAST		E-W			Turn Left
+      95	x: 5 y: 5	EAST		N-S			Wait Signal
+      99	x: 5 y: 6	NORTH		N-S			Turn Left
+      100	x: 5 y: 6	NORTH		E-W			Wait Signal
+      104	x: 4 y: 6	WEST		E-W			Turn Left
+      107	x: 3 y: 6	WEST		N-S			Go Straight
+      111	x: 3 y: 7	NORTH		N-S			Turn Right
+      114	x: 3 y: 8	NORTH		E-W			Go Straight
+      118	x: 4 y: 8	EAST		E-W			Turn Right
+      119	x: 4 y: 8	EAST		N-S			Wait Signal
+      123	x: 4 y: 9	NORTH		N-S			Turn Left
+      124	x: 4 y: 9	NORTH		E-W			Wait Signal
+      128	x: 5 y: 9	EAST		E-W			Turn Right
+      129	x: 5 y: 9	EAST		N-S			Wait Signal
+      133	x: 5 y: 8	SOUTH		N-S			Turn Right
+      134	x: 5 y: 8	SOUTH		E-W			Wait Signal
+      138	x: 4 y: 8	WEST		E-W			Turn Right
+      141	x: 3 y: 8	WEST		N-S			Go Straight
+      142	x: 3 y: 8	WEST		E-W			Wait Signal
+      145	x: 2 y: 8	WEST		N-S			Go Straight
+      149	x: 2 y: 9	NORTH		N-S			Turn Right
+      150	x: 2 y: 9	NORTH		E-W			Wait Signal
+      154	x: 1 y: 9	WEST		E-W			Turn Left
+      155	x: 1 y: 9	WEST		N-S			Wait Signal
+      165	x: 1 y: 9	NORTH		N-S			Turn Right
+      175	x: 1 y: 9	NORTH		N-S			Go Straight
+      176	x: 1 y: 9	NORTH		E-W			Wait Signal
+      180	x: 0 y: 9	WEST		E-W			Turn Left
+      181	x: 0 y: 9	WEST		N-S			Wait Signal
+      185	x: 0 y: 8	SOUTH		N-S			Turn Left
+      188	x: 0 y: 7	SOUTH		E-W			Go Straight
+      192	x: 1 y: 7	EAST		E-W			Turn Left
+      195	x: 2 y: 7	EAST		N-S			Go Straight
+      196	x: 2 y: 7	EAST		E-W			Wait Signal
+      199	x: 3 y: 7	EAST		N-S			Go Straight
+      203	x: 3 y: 8	NORTH		N-S			Turn Left
+      204	x: 3 y: 8	NORTH		E-W			Wait Signal
+      208	x: 2 y: 8	WEST		E-W			Turn Left
+      209	x: 2 y: 8	WEST		N-S			Wait Signal
+      213	x: 2 y: 7	SOUTH		N-S			Turn Left
+      214	x: 2 y: 7	SOUTH		E-W			Wait Signal
+      218	x: 1 y: 7	WEST		E-W			Turn Right
+      219	x: 1 y: 7	WEST		N-S			Wait Signal
+      223	x: 1 y: 8	NORTH		N-S			Turn Right
+      224	x: 1 y: 8	NORTH		E-W			Wait Signal
+      228	x: 0 y: 8	WEST		E-W			Turn Left
+      229	x: 0 y: 8	WEST		N-S			Wait Signal
+      233	x: 0 y: 7	SOUTH		N-S			Turn Left
+      234	x: 0 y: 7	SOUTH		E-W			Wait Signal
+      238	x: 1 y: 7	EAST		E-W			Turn Left
+      241	x: 2 y: 7	EAST		N-S			Go Straight
+      242	x: 2 y: 7	EAST		E-W			Wait Signal
+      245	x: 3 y: 7	EAST		N-S			Go Straight
+      246	x: 3 y: 7	EAST		E-W			Wait Signal
+      249	x: 4 y: 7	EAST		N-S			Go Straight
+      253	x: 4 y: 8	NORTH		N-S			Turn Left
+      254	x: 4 y: 8	NORTH		E-W			Wait Signal
+      258	x: 5 y: 8	EAST		E-W			Turn Right
+      259	x: 5 y: 8	EAST		N-S			Wait Signal
+      263	x: 5 y: 7	SOUTH		N-S			Turn Right
+      266	x: 5 y: 6	SOUTH		E-W			Go Straight
+      267	x: 5 y: 6	SOUTH		N-S			Wait Signal
+      270	x: 5 y: 5	SOUTH		E-W			Go Straight
+      274	x: 4 y: 5	WEST		E-W			Turn Right
+      275	x: 4 y: 5	WEST		N-S			Wait Signal
+      279	x: 4 y: 6	NORTH		N-S			Turn Right
+      280	x: 4 y: 6	NORTH		E-W			Wait Signal
+      284	x: 3 y: 6	WEST		E-W			Turn Left
+      287	x: 2 y: 6	WEST		N-S			Go Straight
+      291	x: 2 y: 7	NORTH		N-S			Turn Right
+      292	x: 2 y: 7	NORTH		E-W			Wait Signal
+      296	x: 1 y: 7	WEST		E-W			Turn Left
+      299	x: 0 y: 7	WEST		N-S			Go Straight
+      300	x: 0 y: 7	WEST		E-W			Wait Signal
+      310	x: 0 y: 7	WEST		E-W			Go Straight
+      311	x: 0 y: 7	WEST		N-S			Wait Signal
+      315	x: 0 y: 8	NORTH		N-S			Turn Right
+      316	x: 0 y: 8	NORTH		E-W			Wait Signal
+      326	x: 0 y: 8	WEST		E-W			Turn Left
+      327	x: 0 y: 8	WEST		N-S			Wait Signal
+      331	x: 0 y: 7	SOUTH		N-S			Turn Left
+      332	x: 0 y: 7	SOUTH		E-W			Wait Signal
+      342	x: 0 y: 7	WEST		E-W			Turn Right
+      343	x: 0 y: 7	WEST		N-S			Wait Signal
+      347	x: 0 y: 6	SOUTH		N-S			Turn Left
+      348	x: 0 y: 6	SOUTH		E-W			Wait Signal
+      358	x: 0 y: 6	WEST		E-W			Turn Right
+      359	x: 0 y: 6	WEST		N-S			Wait Signal
+      363	x: 0 y: 5	SOUTH		N-S			Turn Left
+      Reached destination at square (0,5)
+      Total time: 363
+      Number of bumps: 7
+
+2. DEBUG MODE on PLAN PATH
+
+      DEBUG MODE: ON
+      Please enter R for a random path; otherwise, the program will run in planned path:
+      skafdj
+      Program is running on PLAN mode
+      The path of the car:
+      Time	CarLocation	CarDirection	GreenLightDirection	MoveChosen
+      3	x: 1 y: 0	EAST		N-S			Go Straight
+      7	x: 1 y: 1	NORTH		N-S			Turn Left
+      8	x: 1 y: 1	NORTH		E-W			Wait Signal
+      12	x: 0 y: 1	WEST		E-W			Turn Left
+      13	x: 0 y: 1	WEST		N-S			Wait Signal
+      17	x: 0 y: 2	NORTH		N-S			Turn Right
+      18	x: 0 y: 2	NORTH		E-W			Wait Signal
+      22	x: 1 y: 2	EAST		E-W			Turn Right
+      25	x: 2 y: 2	EAST		N-S			Go Straight
+      29	x: 2 y: 1	SOUTH		N-S			Turn Right
+      32	x: 2 y: 0	SOUTH		E-W			Go Straight
+      36	x: 3 y: 0	EAST		E-W			Turn Left
+      37	x: 3 y: 0	EAST		N-S			Wait Signal
+      41	x: 3 y: 1	NORTH		N-S			Turn Left
+      44	x: 3 y: 2	NORTH		E-W			Go Straight
+      45	x: 3 y: 2	NORTH		N-S			Wait Signal
+      48	x: 3 y: 3	NORTH		E-W			Go Straight
+      52	x: 2 y: 3	WEST		E-W			Turn Left
+      55	x: 1 y: 3	WEST		N-S			Go Straight
+      56	x: 1 y: 3	WEST		E-W			Wait Signal
+      59	x: 0 y: 3	WEST		N-S			Go Straight
+      63	x: 0 y: 4	NORTH		N-S			Turn Right
+      64	x: 0 y: 4	NORTH		E-W			Wait Signal
+      68	x: 1 y: 4	EAST		E-W			Turn Right
+      71	x: 2 y: 4	EAST		N-S			Go Straight
+      72	x: 2 y: 4	EAST		E-W			Wait Signal
+      75	x: 3 y: 4	EAST		N-S			Go Straight
+      76	x: 3 y: 4	EAST		E-W			Wait Signal
+      79	x: 4 y: 4	EAST		N-S			Go Straight
+      83	x: 4 y: 3	SOUTH		N-S			Turn Right
+      86	x: 4 y: 2	SOUTH		E-W			Go Straight
+      87	x: 4 y: 2	SOUTH		N-S			Wait Signal
+      90	x: 4 y: 1	SOUTH		E-W			Go Straight
+      91	x: 4 y: 1	SOUTH		N-S			Wait Signal
+      94	x: 4 y: 0	SOUTH		E-W			Go Straight
+      98	x: 5 y: 0	EAST		E-W			Turn Left
+      99	x: 5 y: 0	EAST		N-S			Wait Signal
+      103	x: 5 y: 1	NORTH		N-S			Turn Left
+      106	x: 5 y: 2	NORTH		E-W			Go Straight
+      107	x: 5 y: 2	NORTH		N-S			Wait Signal
+      110	x: 5 y: 3	NORTH		E-W			Go Straight
+      111	x: 5 y: 3	NORTH		N-S			Wait Signal
+      114	x: 5 y: 4	NORTH		E-W			Go Straight
+      115	x: 5 y: 4	NORTH		N-S			Wait Signal
+      118	x: 5 y: 5	NORTH		E-W			Go Straight
+      122	x: 4 y: 5	WEST		E-W			Turn Left
+      125	x: 3 y: 5	WEST		N-S			Go Straight
+      126	x: 3 y: 5	WEST		E-W			Wait Signal
+      129	x: 2 y: 5	WEST		N-S			Go Straight
+      130	x: 2 y: 5	WEST		E-W			Wait Signal
+      133	x: 1 y: 5	WEST		N-S			Go Straight
+      134	x: 1 y: 5	WEST		E-W			Wait Signal
+      137	x: 0 y: 5	WEST		N-S			Go Straight
+      141	x: 0 y: 6	NORTH		N-S			Turn Right
+      142	x: 0 y: 6	NORTH		E-W			Wait Signal
+      146	x: 1 y: 6	EAST		E-W			Turn Right
+      149	x: 2 y: 6	EAST		N-S			Go Straight
+      150	x: 2 y: 6	EAST		E-W			Wait Signal
+      153	x: 3 y: 6	EAST		N-S			Go Straight
+      154	x: 3 y: 6	EAST		E-W			Wait Signal
+      157	x: 4 y: 6	EAST		N-S			Go Straight
+      158	x: 4 y: 6	EAST		E-W			Wait Signal
+      161	x: 5 y: 6	EAST		N-S			Go Straight
+      162	x: 5 y: 6	EAST		E-W			Wait Signal
+      165	x: 6 y: 6	EAST		N-S			Go Straight
+      169	x: 6 y: 5	SOUTH		N-S			Turn Right
+      172	x: 6 y: 4	SOUTH		E-W			Go Straight
+      173	x: 6 y: 4	SOUTH		N-S			Wait Signal
+      176	x: 6 y: 3	SOUTH		E-W			Go Straight
+      177	x: 6 y: 3	SOUTH		N-S			Wait Signal
+      180	x: 6 y: 2	SOUTH		E-W			Go Straight
+      181	x: 6 y: 2	SOUTH		N-S			Wait Signal
+      184	x: 6 y: 1	SOUTH		E-W			Go Straight
+      185	x: 6 y: 1	SOUTH		N-S			Wait Signal
+      188	x: 6 y: 0	SOUTH		E-W			Go Straight
+      192	x: 7 y: 0	EAST		E-W			Turn Left
+      193	x: 7 y: 0	EAST		N-S			Wait Signal
+      197	x: 7 y: 1	NORTH		N-S			Turn Left
+      200	x: 7 y: 2	NORTH		E-W			Go Straight
+      Reached destination at square (7,2)
+      Total time: 200
+      Number of bumps: 0
+
+3. RUN MODE on RANDOM PATH
+
+      DEBUG MODE: OFF
+      Please enter R for a random path; otherwise, the program will run in planned path:
+      R
+      Program is running on RANDOM mode
+      Reached destination at square (0,3)
+      Total time: 522
+      Number of bumps: 29
+
+4. RUN MODE on PLAN PATH
+
+      DEBUG MODE: OFF
+      Please enter R for a random path; otherwise, the program will run in planned path:
+      wwww
+      Program is running on PLAN mode
+      Reached destination at square (4,5)
+      Total time: 122
+      Number of bumps: 0
