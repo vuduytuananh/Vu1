@@ -15,9 +15,9 @@ Extract the `Vu1.zip` file to `Vu1` project folder
 2. Use `javac` to compile:`$javac -d ./bin/ ./src/main/*.java`
 
 ###   2.3. Run the program
-1. Run the compiled program with in one of two mode:
-⋅⋅* DEBUG MODE: `$java -cp ./bin/ main.Main -d`
-⋅⋅* RUN MODE: `$java -cp ./bin/ main.Main`
-2. Follow the instruction from the program and type `R` if you want to run on Random Route; otherwise, the program will run with a Plan
+  1. Run the compiled program with in one of two modes:
+    * DEBUG MODE: `$java -cp ./bin/ main.Main -d`
+    * RUN MODE: `$java -cp ./bin/ main.Main`
+  2. Follow the instruction from the program and type `R` if you want to run on Random Route; otherwise, the program will run with a Plan
 
 ### 3. CS481 Coupon: NO
