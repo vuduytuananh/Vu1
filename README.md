@@ -11,15 +11,14 @@ public static final int SQUARE_MAP_WIDTH = 10;
 ###   2.2. Upzip
 Extract the `Vu1.zip` file to `Vu1` project folder
 ###   2.2. Compile
-  1. Change working directory to the project directory `Vu1`:
-    e.g. `$cd ~/Downloads/Vu1`
-
-  2. Use `javac` to compile:
-    `$javac -d ./bin/ ./src/main/*.java`
+  1. Change working directory to the project directory `Vu1`: `$cd ~/Downloads/Vu1`
+  2. Use `javac` to compile:`$javac -d ./bin/ ./src/main/*.java`
 
 ###   2.3. Run the program
   1. Run the compiled program with in one of two mode:
-    1.1. DEBUG MODE: `$java -cp ./bin/ main.Main -d`
-    1.2. RUN MODE: `$java -cp ./bin/ main.Main`
+
+  1.1. DEBUG MODE: `$java -cp ./bin/ main.Main -d`
+
+  1.2. RUN MODE: `$java -cp ./bin/ main.Main`
   2. Follow the instruction from the program and type `R` if you want to run on Random Route; otherwise, the program will run with a Plan
 ### 3. CS481 Coupon: NO
