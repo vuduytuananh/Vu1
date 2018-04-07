@@ -12,12 +12,10 @@ public static final int SQUARE_MAP_WIDTH = 10;
 Extract the `Vu1.zip` file to `Vu1` project folder
 ### 2.2. Compile
   1. Change working directory to the project directory `Vu1`:
-
-  e.g. `$cd ~/Downloads/Vu1`
+    e.g. `$cd ~/Downloads/Vu1`
 
   2. Use `javac` to compile:
-
-  `$javac -d ./bin/ ./src/main/*.java`
+    `$javac -d ./bin/ ./src/main/*.java`
 
 ### 2.3. Run the program
   1. Run the compiled program with in one of two mode:
