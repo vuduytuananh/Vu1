@@ -15,6 +15,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter R for a random path; otherwise, the program will run in planned path:");
 		String token = sc.nextLine();
+		sc.close();
 		if (token.length() == 1) {
 			char plan = token.charAt(0);
 			planned = plan != 'R';

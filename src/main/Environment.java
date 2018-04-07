@@ -250,7 +250,9 @@ public class Environment {
 	}
 	public void waitAtSignal() {
 		this.uptime++;
-		handleDebug("Wait Signal");
+		if (this.debug_on) {
+			handleDebug("Wait Signal");
+		}
 	}
 	public void stop() {
 		assert this.carLoc.equals(this.destination);
