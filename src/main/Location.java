@@ -1,3 +1,6 @@
+/**
+@Author vu9767@kettering.edu
+*/
 package main;
 
 public class Location {
@@ -5,7 +8,7 @@ public class Location {
 	private int y;
 	public Location(int x, int y) {
 		this.x = x;
-		this.y = y; 
+		this.y = y;
 	}
 
 	public int getX() {
@@ -24,10 +27,10 @@ public class Location {
 		Location other_loc = (Location) other;
 		return (this.getX() == other_loc.getX()) && (this.getY() == other_loc.getY());
 	}
-	
+
 	@Override
 	public int hashCode() {
 		return this.getX()*this.getX() + this.getY()*this.getY();
 	}
-	
+
 }

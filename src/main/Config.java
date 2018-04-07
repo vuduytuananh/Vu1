@@ -1,3 +1,6 @@
+/**
+@Author vu9767@kettering.edu
+*/
 package main;
 
 public interface Config {

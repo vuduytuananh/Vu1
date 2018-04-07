@@ -6,7 +6,7 @@
 ###   2.1. Upzip
 Extract the `Vu1.zip` file to `Vu1` project folder
 ###   2.2. Config the size of the map
-Change the value of the integer constant `SQUARE_MAP_WIDTH` at the line:
+Change the value of the integer constant `SQUARE_MAP_WIDTH` on file `Vu1/src/main/Config.java` at the line:
 ```java
 public static final int SQUARE_MAP_WIDTH = 10;
 ```

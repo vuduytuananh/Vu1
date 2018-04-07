@@ -1,3 +1,6 @@
+/**
+@Author vu9767@kettering.edu
+*/
 package main;
 import java.util.HashMap;
 import java.util.Map;
@@ -29,14 +32,14 @@ public class Environment {
 		this.num_bumps = 0;
 	}
 	private enum PrintDataKeys{
-		TIME, 
-		LOCATION, 
-		DIRECTION, 
-		GREEN_LIGHT, 
+		TIME,
+		LOCATION,
+		DIRECTION,
+		GREEN_LIGHT,
 		MOVE
 	}
 	private void myPrint(Map<PrintDataKeys, String> data) {
-		System.out.println("" + data.get(PrintDataKeys.TIME) + 
+		System.out.println("" + data.get(PrintDataKeys.TIME) +
 				"\t" + data.get(PrintDataKeys.LOCATION) +
 				"\t"+ data.get(PrintDataKeys.DIRECTION) +
 				"\t\t" + data.get(PrintDataKeys.GREEN_LIGHT) +
@@ -56,7 +59,7 @@ public class Environment {
 			System.out.println(this.header);
 			this.header_printed = true;
 		}
-		
+
 		String location = "x: "+ this.getCarLoc().getX() + " y: " + this.getCarLoc().getY();
 		String uptime = "" + this.getUptime();
 		String greenDirection = this.greenLightDirection(this.getCurrentDirection(), this.getSignalColorByDir(this.getCurrentDirection()) == SignalColors.GREEN);
@@ -74,13 +77,13 @@ public class Environment {
 				return carLoc.getY() == this.MAP_WIDTH - 1;
 			}
 			case SOUTH:{
-				return carLoc.getY() == 0; 
+				return carLoc.getY() == 0;
 			}
 			case WEST:{
 				return carLoc.getX() == 0;
 			}
 			case EAST:{
-				return carLoc.getX() == this.MAP_WIDTH - 1;		
+				return carLoc.getX() == this.MAP_WIDTH - 1;
 				}
 			default: return false;
 		}
@@ -140,9 +143,9 @@ public class Environment {
 			this.uptime += Config.BUMP_TIME;
 			this.num_bumps++;
 		}
-		
+
 		if (this.debug_on) {
-			handleDebug("Go Straight");			
+			handleDebug("Go Straight");
 		}
 
 	}

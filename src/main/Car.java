@@ -1,3 +1,6 @@
+/**
+@Author vu9767@kettering.edu
+*/
 package main;
 
 import java.util.HashSet;
@@ -8,7 +11,7 @@ public class Car {
 	private boolean bump;
 	private SignalColors signalColor;
 	private boolean reached;
-	private Environment env;	
+	private Environment env;
 	private Map<InforKeys, Object> state;
 	private Directions currentDirection;
 	private int numPossibleMoves;
@@ -123,7 +126,7 @@ public class Car {
 		case NORTH:{
 			switch(move) {
 			case LEFT: return Directions.WEST;
-			case RIGHT: return Directions.EAST; 
+			case RIGHT: return Directions.EAST;
 			default: return Directions.NORTH;
 			}
 		}
@@ -171,7 +174,7 @@ public class Car {
 					env.waitAtSignal();
 					env.goLeft();
 				}else {
-					env.goLeft();					
+					env.goLeft();
 				}
 
 				break;
@@ -182,7 +185,7 @@ public class Car {
 					env.waitAtSignal();
 					env.goRight();
 				}else {
-					env.goRight();					
+					env.goRight();
 				}
 				break;
 			}
@@ -246,7 +249,7 @@ public class Car {
 					env.waitAtSignal();
 					env.goLeft();
 				}else {
-					env.goLeft();					
+					env.goLeft();
 				}
 
 				break;
@@ -257,7 +260,7 @@ public class Car {
 					env.waitAtSignal();
 					env.goRight();
 				}else {
-					env.goRight();					
+					env.goRight();
 				}
 				break;
 			}
